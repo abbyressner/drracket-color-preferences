@@ -1,14 +1,25 @@
 #lang info
 
-;; Spacemacs Themes for DrRacket
+;; Color Themes for DrRacket
 ;; pkg metadata
 (define deps '("base"))
 
-;; Spacemacs Common Colors
+;; Common Colors
 (define green                    #(103 177 29))
 (define magenta                  #(163 29 177))
 (define red                      #(242 36 31))
 (define yellow                   #(177 149 29))
+(define orange                   #(255 123 66))
+(define yellow                   #(177 149 29))
+
+;; My Colors
+(define green                    #(23 183 76))
+(define magenta                  #(163 29 177))
+(define red                      #(242 36 31))
+(define yellow                   #(177 149 29))
+(define orange                   #(255 123 66))
+(define yellow                   #(177 149 29))
+
 
 (define comment                  #(42 161 174))
 (define error                    #(224 33 29))
@@ -56,7 +67,7 @@
 (define dark-foreground          #(178 178 178))
 (define dark-dim                 #(104 104 104))
 (define dark-function            #(188 110 197))
-(define dark-hash-colon-keyword  #(205 92 92))
+(define dark-hash-colon-keyword  #(205 92 92 0.3))
 (define dark-highlight           #(68 65 85 0.5))
 (define dark-highlight-dim       #(48 45 65 0.5))
 (define dark-isearch-background  #(134 220 47 0.85))
